@@ -30,6 +30,28 @@ path{
    fill: red;
    cursor: pointer;
    pointer-events: all;
+   transform: translate(-1px, -7px);
+   stroke-width: 4px;
+   stroke: black;
+   display: none;
+}
+path:hover{
+   stroke-width: 1px;
+}
+.exit-blue{
+   fill: blue;
+}
+.exit-green{
+   fill: green;
+}
+.exit-gray{
+   fill: gray;
+}
+.key{
+   fill: red;
+}
+.active{
+   display: block;
 }
 .menu__link{
    position: fixed;
@@ -51,7 +73,7 @@ path{
    right: -100%;
    padding: 10px;
    height: 100%;
-   width: 300px;
+   width: 200px;
    background-color: rgb(255, 255, 255);
    z-index: 2;
    transition: right 0.3s;
